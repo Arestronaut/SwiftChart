@@ -11,9 +11,6 @@ let package = Package(
     targets: [
         // SwiftChart
         .target(name: "SwiftChart", dependencies: [
-        ], path: "Source"),
-
-        // Testing
-        .testTarget(name: "SwiftChartTests", dependencies: ["SwiftChart"], path: "SwiftChartTests"),
+        ], path: "Source")
     ]
 )
